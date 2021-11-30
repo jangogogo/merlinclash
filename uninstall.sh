@@ -12,7 +12,7 @@ fi
 
 find /koolshare/init.d/ -name "*clash*" | xargs rm -rf
 rm -rf /koolshare/bin/clash
-rm -rf /koolshare/bin/dns2socks5
+# rm -rf /koolshare/bin/dns2socks5
 rm -rf /koolshare/bin/yq
 rm -rf /koolshare/bin/jq_c
 rm -rf /koolshare/bin/haveged_c
