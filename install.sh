@@ -160,7 +160,7 @@ if [ "$SPACE_AVAL" -gt "$SPACE_NEED" ];then
 
 	echo_date 复制相关二进制文件！此步时间可能较长！
 	cp -rf /tmp/merlinclash/clash/clash /koolshare/bin/
-	cp -rf /tmp/merlinclash/clash/dns2socks5 /koolshare/bin/
+# 	cp -rf /tmp/merlinclash/clash/dns2socks5 /koolshare/bin/
 	cp -rf /tmp/merlinclash/clash/yq /koolshare/bin/
 	cp -rf /tmp/merlinclash/clash/jq_c /koolshare/bin/
 	cp -rf /tmp/merlinclash/clash/haveged_c /koolshare/bin/
